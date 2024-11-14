@@ -1,4 +1,4 @@
-output "mock" {
-  description = "Mock output example for the Cloud Posse Terraform component template"
-  value       = local.enabled ? "hello ${basename(abspath(path.module))}" : ""
+output "metadata" {
+  value       = module.aws_node_termination_handler.metadata
+  description = "Block status of the deployed release"
 }
