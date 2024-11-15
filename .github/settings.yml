@@ -2,6 +2,6 @@
 _extends: .github
 repository:
   name: aws-eks-node-termination-handler
-  description: This component creates a Helm release for [aws-node-termination-handler](https://github
+  description: This component creates a Helm release for aws-node-termination-handler on a Kubernetes cluster.
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
