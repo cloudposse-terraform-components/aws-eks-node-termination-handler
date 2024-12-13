@@ -6,7 +6,7 @@ tags:
   - provider/helm
 ---
 
-# Component: `eks`
+# Component: `eks-node-termination-handler`
 
 This component creates a Helm release for
 [aws-node-termination-handler](https://github.com/aws/aws-node-termination-handler) on a Kubernetes cluster.
