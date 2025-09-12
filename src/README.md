@@ -14,7 +14,6 @@ This component creates a Helm release for
 default) monitors the EC2 IMDS endpoint for scheduled maintenance events, spot instance termination events, and
 rebalance recommendation events, and drains and/or cordons nodes upon such events. This ensures that workloads on
 Kubernetes are evicted gracefully when a node needs to be terminated.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -51,7 +50,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -139,12 +141,19 @@ components:
 | Name | Description |
 |------|-------------|
 | <a name="output_metadata"></a> [metadata](#output\_metadata) | Block status of the deployed release |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
+
 - [aws-node-termination-handler](https://artifacthub.io/packages/helm/aws/aws-node-termination-handler) - Helm Chart
+
 - [aws-node-termination-handler](https://github.com/aws/aws-node-termination-handler) - AWS Node Termination Handler
 
+
+
+
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-eks-node-termination-handler&utm_content=)
+
